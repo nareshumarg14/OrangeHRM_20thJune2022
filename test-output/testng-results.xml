@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="21542" started-at="2022-06-16T00:50:07Z" finished-at="2022-06-16T00:50:29Z">
+    <groups>
+    </groups>
+    <test name="TC001_UserLogin" duration-ms="13018" started-at="2022-06-16T00:50:07Z" finished-at="2022-06-16T00:50:20Z">
+      <class name="com.OrangeHRM.testCases.TC001_UserLogin">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRM.testCases.TC001_UserLogin@6ea810]" name="setup" is-config="true" duration-ms="7872" started-at="2022-06-16T00:50:08Z" finished-at="2022-06-16T00:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.OrangeHRM.testCases.TC001_UserLogin@6ea810]" name="loginTest" duration-ms="3159" started-at="2022-06-16T00:50:16Z" finished-at="2022-06-16T00:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHRM.testCases.TC001_UserLogin@6ea810]" name="teardown" is-config="true" duration-ms="1645" started-at="2022-06-16T00:50:19Z" finished-at="2022-06-16T00:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OrangeHRM.testCases.TC001_UserLogin -->
+    </test> <!-- TC001_UserLogin -->
+    <test name="TC002_ForgotYourPasswordLink" duration-ms="8022" started-at="2022-06-16T00:50:21Z" finished-at="2022-06-16T00:50:29Z">
+      <class name="com.OrangeHRM.testCases.TC002_ForgotYourPasswordLink">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRM.testCases.TC002_ForgotYourPasswordLink@1816741]" name="setup" is-config="true" duration-ms="5807" started-at="2022-06-16T00:50:21Z" finished-at="2022-06-16T00:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotYourPasswordLinkTest()[pri:0, instance:com.OrangeHRM.testCases.TC002_ForgotYourPasswordLink@1816741]" name="forgotYourPasswordLinkTest" duration-ms="863" started-at="2022-06-16T00:50:27Z" finished-at="2022-06-16T00:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotYourPasswordLinkTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHRM.testCases.TC002_ForgotYourPasswordLink@1816741]" name="teardown" is-config="true" duration-ms="1347" started-at="2022-06-16T00:50:28Z" finished-at="2022-06-16T00:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OrangeHRM.testCases.TC002_ForgotYourPasswordLink -->
+    </test> <!-- TC002_ForgotYourPasswordLink -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
